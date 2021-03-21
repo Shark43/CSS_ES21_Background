@@ -1,0 +1,17 @@
+/*Index.css*/
+body{
+    /*immagine di sfondo del body*/
+    background-image: url("bg.gif");
+    /*ripetere in verticale con -y*/
+    background-repeat: repeat-y;
+    background-position: center;
+    /*Toglie l'effetto laterale bianco*/
+    background-color: rgb(234,234,234);
+}
+#wrapper{
+    width: 783px;
+    /*height: 800px;*/
+    margin: 0 auto;
+    border: 2px solid red;
+    text-align: center;
+}
